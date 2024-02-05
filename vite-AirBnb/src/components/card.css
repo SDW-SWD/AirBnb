@@ -1,0 +1,30 @@
+.card-image , .card-stats , .card-title , .card-price{
+    margin-left: 4%;
+}
+
+.card-content{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 3.8em;
+    overflow: scroll;
+
+    
+}
+.card-image , .card-stats , .card-title, .card-price{
+    border-radius: 5%;
+    margin-inline-start: 20%;
+    margin-inline-start: 0.2em;
+}
+.card-image{
+    height: 20em;
+
+}
+.card-badge{
+    position: absolute;
+    background-color: white;
+    padding: 8px 7px;
+    border-radius: 2px;
+    margin-left: 1em;
+    font-weight: bold;
+    margin-top: -22.5em;
+}

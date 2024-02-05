@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 4em;
+    justify-content: center;
+    align-items: center;
+}
+
+section > img{
+    padding: 0;
+    width: 60%;
+    height: 50%;
+}
+
+section > h1{
+    align-self: flex-start;
+    margin-left: 0;
+    font-size: 4em;
+    margin-bottom: 0;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+}
+
+section > p{
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 1.8em;
+    padding: 0;
+    align-self: flex-start;
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
+}
+
